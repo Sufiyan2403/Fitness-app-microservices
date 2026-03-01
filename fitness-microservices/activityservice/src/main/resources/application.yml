@@ -6,5 +6,11 @@ spring:
     database: aiactivityfitness
     uri: mongodb://localhost:27017/aiactivityfitness
 
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
 server:
     port: 8082
